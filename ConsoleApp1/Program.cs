@@ -167,6 +167,18 @@ namespace ConsoleApp1
             //} 
             #endregion
 
+            #region Tracking vs NoTracking 
+            //// Tracking vs NoTracking 
+            //// Tracking 
+
+            //var result = context.Employees.AsNoTracking().FirstOrDefault(E => E.Id == 10);
+            //Console.WriteLine(context.Entry(result).State); // Unchanged 
+            //result.Name = "Ali"; // Local 
+            //Console.WriteLine(context.Entry(result).State); // Modified 
+            //Console.WriteLine(result.Name);
+            //context.SaveChanges(); // Remotly 
+            #endregion
+
 
         }
 
