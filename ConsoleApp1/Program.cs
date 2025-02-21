@@ -179,6 +179,29 @@ namespace ConsoleApp1
             //context.SaveChanges(); // Remotly 
             #endregion
 
+            #region Remotly Vs Local
+            //Remotly Vs Local
+
+            //Remotly
+            //context.Employees.Any();
+            //context.Employees.Any();
+            //context.Employees.Any();
+            //context.Employees.Any();
+            //context.Employees.Any();
+            //context.Employees.Any();
+            //context.Employees.Any();
+
+            //Local
+            //context.Employees.Load();
+            //context.Employees.Local.Any();
+            //context.Employees.Local.Any();
+            //context.Employees.Local.Any();
+            //context.Employees.Local.Any(); 
+            #endregion
+
+
+
+
 
         }
 
