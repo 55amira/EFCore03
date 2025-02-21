@@ -131,9 +131,41 @@ namespace ConsoleApp1
             //{
             //    Console.WriteLine(item.Name);
             //} 
-            #endregion 
+            #endregion
             #endregion
 
+            #region Join OPerators - Join Inner
+
+            // Join OPerators - Join Inner
+
+            //// Fluent Syntax
+            //var result = context.Employees.Join(context.Departments, E => E.DeptId, D => D.Id, (E, D) => new
+            //{
+            //    EmpId = E.Id,
+            //    EmpName = E.Name,
+            //    DeptId = D.Id,
+            //    DeptName = D.Name
+            //}).Where( D=> D.DeptName == "HR");
+
+            //// Query Expertion
+
+            //result = from E in context.Employees
+            //         join D in context.Departments
+            //         on E.DeptId equals D.Id
+            //         where D.Name == "HR"
+            //         select new
+            //         {
+            //             EmpId = E.Id,
+            //             EmpName = E.Name,
+            //             DeptId = D.Id,
+            //             DeptName = D.Name
+            //         };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
 
 
         }
