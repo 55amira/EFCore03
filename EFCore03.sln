@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{AABB3BD9-8C9E-487B-BF0A-84221C825BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db First", "Db First\Db First.csproj", "{2A844141-D095-43B0-86D6-5421250FBDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db First Using EF Core Power Tools", "Db First Using EF Core Power Tools\Db First Using EF Core Power Tools.csproj", "{97D6B836-A39A-4992-8BF2-3D8A7E98D754}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AABB3BD9-8C9E-487B-BF0A-84221C825BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AABB3BD9-8C9E-487B-BF0A-84221C825BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AABB3BD9-8C9E-487B-BF0A-84221C825BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A844141-D095-43B0-86D6-5421250FBDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A844141-D095-43B0-86D6-5421250FBDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A844141-D095-43B0-86D6-5421250FBDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A844141-D095-43B0-86D6-5421250FBDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D6B836-A39A-4992-8BF2-3D8A7E98D754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D6B836-A39A-4992-8BF2-3D8A7E98D754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D6B836-A39A-4992-8BF2-3D8A7E98D754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D6B836-A39A-4992-8BF2-3D8A7E98D754}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
