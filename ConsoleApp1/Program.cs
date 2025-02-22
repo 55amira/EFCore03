@@ -134,6 +134,7 @@ namespace ConsoleApp1
             #endregion
             #endregion
 
+
             #region Join OPerators - Join Inner
 
             // Join OPerators - Join Inner
@@ -178,6 +179,7 @@ namespace ConsoleApp1
             //Console.WriteLine(result.Name);
             //context.SaveChanges(); // Remotly 
             #endregion
+
 
             #region Remotly Vs Local
             //Remotly Vs Local
